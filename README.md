@@ -1,6 +1,9 @@
 # Autograding Example: Java
 This example project is written in Java, and tested with Gradle/JUnit.
 
+### This is the origonal autograding repo, modified to build for HelloWorld instead of Hello.  
+There are also two example tests, one that demonstrates the gradle build and one that compiles and runs HelloWorld from source.
+
 ### The assignment
 The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green.
 
