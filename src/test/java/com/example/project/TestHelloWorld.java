@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import java.io.*;
 
-public class TestHello {
+public class TestHelloWorld {
 
    @Test
    public void testHelloWorld()
@@ -19,10 +19,10 @@ public class TestHello {
      System.setOut(new PrintStream(bos));
 
      // action
-     Hello.main(null);
+     HelloWorld.main(null);
 
      // assertion
-     assertEquals("Hello world!\n", bos.toString());
+     assertEquals("Hello World\n", bos.toString());
 
      // undo the binding in System
      System.setOut(originalOut);
